@@ -1,6 +1,18 @@
 .App {
   text-align: center;
+  background-color: black;
 }
+
+.pokePictures {
+  background-color: #000000;
+  min-height: 10vh;
+  flex-direction: row;
+  align-items: top;
+  justify-content: center;
+  font-size: calc(4px + 2vmin);
+  color: rgb(12, 11, 11);
+}
+
 
 .logo{
   height: 240px;
@@ -26,7 +38,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(7, 7, 7);
 }
 
 .App-link {

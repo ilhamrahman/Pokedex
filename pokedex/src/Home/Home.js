@@ -22,21 +22,21 @@ render() {
   return (
     <div className="App">
       <header className="pictures">
-      <button><img src={charmander} className="logo" alt="logo" onClick={() => history.push('/pokemonData')} /></button>
-      <button><img src={charmeleon} className="logo" alt="logo" onClick={() => history.push('/pokemonData')} /></button>
-      <button><img src={charizard} className="logo" alt="logo" onClick={() => history.push('/pokemonData')} /></button>
+      <button><img src={charmander} className="logo" alt="logo" onClick={() => history.push('/charmander')} /></button>
+      <button><img src={charmeleon} className="logo" alt="logo" onClick={() => history.push('/charmeleon')} /></button>
+      <button><img src={charizard} className="logo" alt="logo" onClick={() => history.push('/charizard')} /></button>
       </header>
 
       <header className="pictures">
-      <button><img src={squirtle} className="logo" alt="logo"   onClick={() => history.push('/pokemonData')} /></button>
-      <button><img src={wartortle} className="logo" alt="logo" onClick={() => history.push('/pokemonData')} /></button>
-      <button><img src={blastoise} className="logo" alt="logo" onClick={() => history.push('/pokemonData')} /></button>
+      <button><img src={squirtle} className="logo" alt="logo"   onClick={() => history.push('/squirtle')} /></button>
+      <button><img src={wartortle} className="logo" alt="logo" onClick={() => history.push('/wartortle')} /></button>
+      <button><img src={blastoise} className="logo" alt="logo" onClick={() => history.push('/blastoise')} /></button>
       </header>
 
       <header className="pictures">
-      <button><img src={bulbasaur} className="logo" alt="logo"   onClick={() => history.push('/pokemonData')} /></button>
-      <button><img src={ivysaur} className="logo" alt="logo" onClick={() => history.push('/pokemonData')} /></button>
-      <button><img src={venusaur} className="logo" alt="logo" onClick={() => history.push('/pokemonData')} /></button>
+      <button><img src={bulbasaur} className="logo" alt="logo"   onClick={() => history.push('/bulbasaur')} /></button>
+      <button><img src={ivysaur} className="logo" alt="logo" onClick={() => history.push('/ivysaur')} /></button>
+      <button><img src={venusaur} className="logo" alt="logo" onClick={() => history.push('/venusaur')} /></button>
       </header>
      
        </div>
