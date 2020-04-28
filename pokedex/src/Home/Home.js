@@ -21,6 +21,10 @@ export default class MainActivity extends Component {
 render() {
   return (
     <div className="App">
+      <div className="pictures" >
+      <h2 style={{ color: '#00ff00', fontSize: "50px"}}> <em> ILHAM'S POKEDEX </em> </h2>
+    </div>
+
       <header className="pictures">
       <button><img src={charmander} className="logo" alt="logo" onClick={() => history.push('/charmander')} /></button>
       <button><img src={charmeleon} className="logo" alt="logo" onClick={() => history.push('/charmeleon')} /></button>
